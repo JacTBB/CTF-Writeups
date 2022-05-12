@@ -1,4 +1,4 @@
-# Obervatory
+# Camp CyberCure:The Final Secret
 If you are seeing this, you must have solved the Lunch Time challenge
 
 After delivering the food to Camp CyberCure, you recieve an entry code to their server. How should you use the code? What will you find?
