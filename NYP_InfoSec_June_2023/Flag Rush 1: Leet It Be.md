@@ -17,11 +17,21 @@ Note: Flag format is FTC{xxxxx}
 
 > This challenge originally appeared as part of the FlagRush event. You may find certain helpful files in this [Documents](https://github.com/MarkB-NYP/FlagRushCTF_1/tree/main/FlagRush%201%20Documents) folder.
 
-## Solution 1 (As Intended In Infosec June 2023 CTF)
+## Solution 0 (Hell Way In Infosec June 2023 CTF)
 
-1. You are given a requirements.txt, not helpful, and a zip file.
+1. You are given a requirements.txt, which you find not helpful, and a zip file.
 2. With no other information, you brute force this long zip file password (That is also the flag).
 3. Honestly no idea who would even try to brute force this.
+```
+Flag: NYP{Do_It_Yourself}
+```
+
+## Solution 1 (As Intended In Infosec June 2023 CTF)
+
+1. You are given a requirements.txt, on closer inspection of the challenge description, it tells you to convert it to LeetSpeak.
+2. You also observe the `pyleetspeak==0.3.9` pip package.
+3. You try to convert the given "FTC{it_would_be_cool_if_can_you_make_this_flag_leet_thanks}" into LeetSpeak with the package.
+4. After thinking for a while with the configurations, your output should be able to unlock the zip file. (P.S. I haven't gotten the right config after hours of trying)
 ```
 Flag: NYP{Do_It_Yourself}
 ```
